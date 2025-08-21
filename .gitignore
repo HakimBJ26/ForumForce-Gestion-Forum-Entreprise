@@ -1,0 +1,31 @@
+﻿# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+bin/
+
+# Logs
+*.log
+logs/
+
+# Java / Maven (backend)
+forum1/target/
+
+# Spring secrets (ne pas versionner le vrai fichier)
+forum1/src/main/resources/application.properties
+
+# Node / Angular (frontend)
+FORUMFORCE/FORUMFORCE/node_modules/
+FORUMFORCE/FORUMFORCE/dist/
+FORUMFORCE/FORUMFORCE/.angular/
+
+# Env files
+.env
+.env.*
